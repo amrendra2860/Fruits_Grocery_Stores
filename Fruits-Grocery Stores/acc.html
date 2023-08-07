@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="acc.css">
+  <script src="https://kit.fontawesome.com/0b3640d4b1.js" crossorigin="anonymous"></script>
+  <!-- Link Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Link Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <!-- <div class="logo">
+    
+         <a href="home.html" img src="images/logo.png" alt=""></a>
+    
+        </div> -->
+    
+        <a href="home.html" class="logo">
+          <img src="images/logo.png" alt="Logo">
+        </a>
+    
+    
+        <div class="middle">
+    
+          <label for="Category"></label>
+          <select name="Product types" id="Product_includes">
+            <option value="">Select Category</option>
+            <option value="">vegetable</option>
+            <option value="">Salad</option>
+            <option value="">Fruits</option>
+            <option value="">Butter</option>
+            <option value="">Health product</option>
+          </select>
+    
+          <label for="Search"></label>
+          <input type="search" name="search" id="search" placeholder="Search Product....... ">
+          <div class="oo">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+    
+        <div class="inquiery">
+    
+          <div class="call">
+            <i class="fa-solid fa-phone" style="color: #008000;"></i>
+            +61-1234567
+          </div>
+    
+          <div class="help">
+            <i class="fa-regular fa-circle-question" style="color: #008000;"></i>
+            Help and More
+          </div>
+    
+          <div class="fav">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+    
+          <div class="user">
+            <i class="fa-regular fa-circle-user"></i>
+          </div>
+    
+        </div>
+    
+      </header>
+      <hr>
+    
+      <!-- navbar -->
+    
+      <nav>
+    
+        <div class="navbar">
+    
+          <div class="dropdown">
+            <button class="dropbtn">Home</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+    
+          <div class="dropdown">
+            <button class="dropbtn">About</button>
+            <div class="dropdown-content">
+              <a href="about.html">Link 1</a>
+              <a href="about.html">Link 2</a>
+              <a href="about.html">Link 3</a>
+            </div>
+          </div>
+    
+          <div class="dropdown">
+            <button class="dropbtn">Pages</button>
+            <div class="dropdown-content">
+              <a href="page.html">Link 1</a>
+              <a href="page.html">Link 2</a>
+              <a href="page.html">Link 3</a>
+            </div>
+          </div>
+    
+          <div class="dropdown">
+            <button class="dropbtn">Shop</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+    
+          <div class="dropdown">
+            <button class="dropbtn">Blog</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+    
+          <div class="dropdown">
+            <button class="dropbtn">Contact Us</button>
+          </div>
+    
+          <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+    
+        </div>
+    
+      </nav>
+
+  <div class="container mt-auto">
+  <div class="container mt-5">
+    <div class="row justify-content-center ">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title text-center mb-4">Log in to your Account</h3>
+            <form>
+              <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <div class="input-group">
+                  <span class="input-group-text bg-success text-white">
+                    <i class="fas fa-user"></i>
+                  </span>
+                  <input type="text" class="form-control" id="username" name="username" required>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <div class="input-group">
+                  <span class="input-group-text bg-success text-white">
+                    <i class="fas fa-lock"></i>
+                  </span>
+                  <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-success btn-block">Login</button>
+            </form>
+            <div class="text-center mt-3">
+              <a href="#" class="text-decoration-none">Forgot Password</a> | <a href="#" class="text-decoration-none">Create Account</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+
+    <div class="main_f">
+
+      <div class="logo_l">
+        <img src="images/logo.png" alt="img">
+
+        <h5 class="l_text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Quis odio corrupti facere officiis amet ad
+          ipsam<br> voluptatem autem quo asperiores.
+        </h5>
+
+        <div class="l_icon">
+          <i class="fa-brands fa-facebook" style="color: #008000;"></i>
+          <i class="fa-brands fa-twitter " style="color: #008000;"></i>
+          <i class="fa-brands fa-instagram" style="color: #008000;"></i>
+          <i class="fa-brands fa-pinterest" style="color: #008000;"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="catalog">
+
+      <h4 class="cat">Product Catalog</h4>
+
+      <ul>
+        <li><a href="#"></a>Vegetables</li>
+        <li><a href="#"></a>Fish & Seafood</li>
+        <li><a href="#"></a>Health products</li>
+        <li><a href="#"></a>Oil & Vinegars</li>
+        <li><a href="#"></a>Butter & Eggs</li>
+      </ul>
+    </div>
+
+    <div class="useful">
+
+      <h4 class="cat">Useful Links</h4>
+
+      <ul>
+        <li><a href="#"></a>About Us</li>
+        <li><a href="#"></a>Featured Products</li>
+        <li><a href="#"></a>Terms & Condition</li>
+        <li><a href="#"></a>Contact Us</li>
+        <li><a href="#"></a>Promotional Offers</li>
+      </ul>
+    </div>
+
+    <div class="apps">
+
+      <h4 class="cat">Download Apps</h4>
+
+      <h5 class="te">Lorem ipsum dolor sit, amet consectetur adipisicing <br> elit. Praesentium, dolor.</h5>
+
+      <div class="play">
+        <img src="images/google.png" alt=""><br>
+        <img src="images/apple.png" alt="">
+      </div>
+    </div>
+
+
+  </footer>
+
+
+  <!-- Link Bootstrap JS and Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
